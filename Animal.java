@@ -13,7 +13,6 @@ public class Animal {
         this.name = name;
     }
 
-//    public abstract int Run(int distance);
 public void Run(int distance) {
     if (distance <= runLimit) {
         System.out.println( name + " run " + distance + " meters.");
@@ -21,8 +20,6 @@ public void Run(int distance) {
         System.out.println(name + " can not run " + distance + " meters.");
     }
 }
-
-//    public abstract int Swim(int distance);
 
     public void Swim(int distance) {
         if (distance <= swimLimit) {
