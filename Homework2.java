@@ -10,5 +10,4 @@ public class Homework2 {
             animal.Swim(3);
         }
     }
-
 }
