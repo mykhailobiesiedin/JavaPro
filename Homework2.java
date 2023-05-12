@@ -9,5 +9,15 @@ public class Homework2 {
             animal.Swim(11);
             animal.Swim(3);
         }
+        for (int i = 0; i< animals.length; i++){
+            if (animals[i].getClass().equals(Dog.class)){
+                dogCounter++;
+            } else {
+                catCounter++;
+            }
+        }
+        System.out.println("Cats : " + catCounter );
+        System.out.println("Dogs : " + dogCounter);
+        System.out.println("Animals : " + (dogCounter + catCounter));
     }
 }
