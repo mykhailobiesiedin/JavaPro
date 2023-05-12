@@ -1,5 +1,10 @@
 package homework_2;
 
+/**
+*Java Homework #3
+* @author Mykhailo Biesiedin
+* @version 12 May 2023
+*/
 public class Homework2 {
     public static void main(String[] args) {
         Animal [] animals = {new Cat("Murzik"), new Dog("Spayk")};
